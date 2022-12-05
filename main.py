@@ -6,7 +6,7 @@ from bot_commands import *
 
 
 app = ApplicationBuilder().token(
-    "5523430859:AAHuelCE7_4qoAgn3t-YfHuxij5Qhc6KzAs").build()
+    "token telegram").build()
 
 app.add_handler(CommandHandler('polin1', pl1_command))
 app.add_handler(CommandHandler('polin2', pl2_command))
